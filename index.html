@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sample form to Email</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<form id="contact" action="form-to-email.php" method="post">
+			<h3>Sample Email Form</h3>
+			<h4>Contact us today, and we'll get back to you asap</h4>
+			<fieldset>
+				<input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+				<input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+				<input name="subject" placeholder="Subject" type="text" tabindex="3" required>
+				<textarea name="message" placeholder="Type your Message Here...." tabindex="4" required></textarea>
+				<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+			</fieldset>
+		</form>
+</body>
+
+</html>
